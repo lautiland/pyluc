@@ -1,0 +1,291 @@
+{
+  "categorias": [
+    {
+      "id": "embocaduras",
+      "nombre": "Embocaduras",
+      "descripcion": "Frenos y bocados para doma, trabajo diario y caballos en formacion.",
+      "imagen": "category-placeholder.svg",
+      "productos": [
+        {
+          "id": "bridon-campo-inox",
+          "nombre": "Bridon de Campo Inox",
+          "descripcion": "Bridon de accion suave pensado para salidas largas y caballos sensibles. Su embocadura pareja mejora el contacto sin endurecer la boca.",
+          "imagen": "product-placeholder.svg",
+          "especificaciones": {
+            "material": "Acero inoxidable",
+            "medida": "4.5 pulgadas",
+            "accion": "Suave"
+          }
+        },
+        {
+          "id": "freno-vaquero-corto",
+          "nombre": "Freno Vaquero Corto",
+          "descripcion": "Freno corto para jinete que busca respuesta rapida en giros y detenciones. Equilibra control y comodidad en trabajo de manga.",
+          "imagen": "product-placeholder.svg",
+          "especificaciones": {
+            "material": "Acero pavonado",
+            "terminacion": "Pulido mate",
+            "uso": "Trabajo de campo"
+          }
+        },
+        {
+          "id": "pelham-doble-renda",
+          "nombre": "Pelham Doble Rienda",
+          "descripcion": "Embocadura versatil para caballos con buena base de boca. Permite ajustar la intensidad segun la rienda que utilices.",
+          "imagen": "product-placeholder.svg",
+          "especificaciones": {
+            "material": "Acero inoxidable",
+            "anillas": "Labradas",
+            "accion": "Media"
+          }
+        }
+      ]
+    },
+    {
+      "id": "accesorios-alpaca",
+      "nombre": "Accesorios de Alpaca",
+      "descripcion": "Piezas decorativas y funcionales para renovar aperos con terminacion artesanal.",
+      "imagen": "category-placeholder.svg",
+      "productos": [
+        {
+          "id": "argolla-alpaca-lisa",
+          "nombre": "Argolla de Alpaca Lisa",
+          "descripcion": "Argolla resistente para pecheras y sujeciones. Acabado limpio que combina con monturas de uso diario.",
+          "imagen": "product-placeholder.svg",
+          "especificaciones": {
+            "diametro": "7 cm",
+            "material": "Alpaca",
+            "terminacion": "Lustrada"
+          }
+        },
+        {
+          "id": "argolla-retorcida-inox",
+          "nombre": "Argolla Retorcida Inox",
+          "descripcion": "Detalle clasico para cabezadas y riendas de presentacion. El relieve retorcido suma firmeza y estilo criollo.",
+          "imagen": "product-placeholder.svg",
+          "especificaciones": {
+            "diametro": "6.5 cm",
+            "material": "Inox",
+            "grabado": "Retorcido"
+          }
+        },
+        {
+          "id": "argolla-bronce-labrada",
+          "nombre": "Argolla de Bronce Labrada",
+          "descripcion": "Pieza de bronce con labrado fino para monturas de paseo y exhibicion. Mantiene brillo y buena durabilidad.",
+          "imagen": "product-placeholder.svg",
+          "especificaciones": {
+            "diametro": "8 cm",
+            "material": "Bronce",
+            "uso": "Paseo y desfile"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cuchillos",
+      "nombre": "Cuchillos",
+      "descripcion": "Modelos para faena y asado, con hojas durables y buen agarre.",
+      "imagen": "category-placeholder.svg",
+      "productos": [
+        {
+          "id": "cuchillo-gaucho-18",
+          "nombre": "Cuchillo Gaucho 18 cm",
+          "descripcion": "Hoja firme para uso mixto en campamento y cocina de campo. Mango de madera con buen apoyo en la mano.",
+          "imagen": "product-placeholder.svg",
+          "especificaciones": {
+            "largo_hoja": "18 cm",
+            "mango": "Madera",
+            "filo": "Liso"
+          }
+        },
+        {
+          "id": "cuchillo-faena-pro",
+          "nombre": "Cuchillo de Faena Pro",
+          "descripcion": "Pensado para tareas intensas de desposte y corte preciso. Mantiene filo estable con mantenimiento basico.",
+          "imagen": "product-placeholder.svg",
+          "especificaciones": {
+            "largo_hoja": "20 cm",
+            "mango": "Polimero antideslizante",
+            "acero": "420"
+          }
+        },
+        {
+          "id": "cuchillo-asador-curvo",
+          "nombre": "Cuchillo Asador Curvo",
+          "descripcion": "Diseño curvo para cortes finos de carne cocida y preparacion en parrilla. Liviano y comodo para jornadas largas.",
+          "imagen": "product-placeholder.svg",
+          "especificaciones": {
+            "largo_hoja": "16 cm",
+            "mango": "Asta sintetica",
+            "funda": "Cuero"
+          }
+        }
+      ]
+    },
+    {
+      "id": "riendas-sujetadores",
+      "nombre": "Riendas y Sujetadores",
+      "descripcion": "Elementos de sujecion y control para uso diario, doma y salida a campo.",
+      "imagen": "category-placeholder.svg",
+      "productos": [
+        {
+          "id": "rienda-cabo-negro",
+          "nombre": "Rienda Cabo Negro",
+          "descripcion": "Rienda de buena flexibilidad con costuras reforzadas. Ideal para entrenamiento y cabalgatas prolongadas.",
+          "imagen": "product-placeholder.svg",
+          "especificaciones": {
+            "material": "Cuero",
+            "largo": "2.4 m",
+            "ancho": "16 mm"
+          }
+        },
+        {
+          "id": "hebilla-juego-bronce",
+          "nombre": "Juego de Hebillas Bronce",
+          "descripcion": "Set de hebillas y pasadores para recambio rapido de cabezadas. Ajuste firme con apariencia tradicional.",
+          "imagen": "product-placeholder.svg",
+          "especificaciones": {
+            "cantidad": "6 piezas",
+            "material": "Bronce",
+            "uso": "Repuesto"
+          }
+        },
+        {
+          "id": "destorcedor-argolla-doble",
+          "nombre": "Destorcedor Argolla Doble",
+          "descripcion": "Accesorio para evitar torsion en puntos de union. Facilita maniobra y reduce desgaste de las tientos.",
+          "imagen": "product-placeholder.svg",
+          "especificaciones": {
+            "material": "Inox",
+            "formato": "Doble argolla",
+            "medida": "80 mm"
+          }
+        }
+      ]
+    },
+    {
+      "id": "monturas",
+      "nombre": "Monturas",
+      "descripcion": "Monturas para paseo, trabajo y entrenamiento con enfasis en confort y duracion.",
+      "imagen": "category-placeholder.svg",
+      "productos": [
+        {
+          "id": "montura-tradicional",
+          "nombre": "Montura Tradicional",
+          "descripcion": "Modelo criollo de asiento amplio para uso diario. Distribuye mejor el peso y brinda estabilidad en terrenos irregulares.",
+          "imagen": "product-placeholder.svg",
+          "especificaciones": {
+            "material": "Cuero",
+            "color": "Habano",
+            "talle": "Mediano"
+          }
+        },
+        {
+          "id": "montura-paseo",
+          "nombre": "Montura de Paseo",
+          "descripcion": "Montura comoda para salidas largas con asiento acolchado y apoyo lumbar. Buena opcion para caballo de escuela.",
+          "imagen": "product-placeholder.svg",
+          "especificaciones": {
+            "material": "Cuero reforzado",
+            "uso": "Paseo y trabajo",
+            "acolchado": "Alta densidad"
+          }
+        },
+        {
+          "id": "montura-polo-liviana",
+          "nombre": "Montura Polo Liviana",
+          "descripcion": "Diseño agil para practica deportiva, con faldones compactos y estructura resistente al uso intensivo.",
+          "imagen": "product-placeholder.svg",
+          "especificaciones": {
+            "material": "Cuero y nylon",
+            "peso": "6.2 kg",
+            "uso": "Polo y entrenamiento"
+          }
+        }
+      ]
+    },
+    {
+      "id": "equipamiento-caballo",
+      "nombre": "Equipamiento del Caballo",
+      "descripcion": "Accesorios para mejorar seguridad, control y comodidad del caballo.",
+      "imagen": "category-placeholder.svg",
+      "productos": [
+        {
+          "id": "estribo-inox-seguro",
+          "nombre": "Estribo Inox Seguro",
+          "descripcion": "Par de estribos de acero inoxidable con apoyo antideslizante. Facilitan posicion estable del pie durante la monta.",
+          "imagen": "product-placeholder.svg",
+          "especificaciones": {
+            "material": "Inox",
+            "ancho": "12 cm",
+            "peso": "750 g el par"
+          }
+        },
+        {
+          "id": "freno-consejero-bronce",
+          "nombre": "Freno Consejero Bronce",
+          "descripcion": "Freno de mayor presencia para caballo con experiencia. Incluye detalles de bronce que realzan el apero.",
+          "imagen": "product-placeholder.svg",
+          "especificaciones": {
+            "material": "Acero con bronce",
+            "accion": "Media a fuerte",
+            "paleta": "Corta"
+          }
+        },
+        {
+          "id": "embocadura-paso-peruano",
+          "nombre": "Embocadura Paso Peruano",
+          "descripcion": "Modelo desarrollado para trabajo fino en caballos de paso. Favorece ritmo parejo y contacto estable.",
+          "imagen": "product-placeholder.svg",
+          "especificaciones": {
+            "material": "Inox",
+            "bocado": "Ancho medio",
+            "uso": "Paso y exhibicion"
+          }
+        }
+      ]
+    },
+    {
+      "id": "herramientas",
+      "nombre": "Herramientas",
+      "descripcion": "Herramientas de apoyo para mantenimiento de establo, monturas y herrajes.",
+      "imagen": "category-placeholder.svg",
+      "productos": [
+        {
+          "id": "tenaza-desvasado",
+          "nombre": "Tenaza de Desvasado",
+          "descripcion": "Herramienta robusta para recorte y mantenimiento del casco. Empuñadura comoda para uso prolongado.",
+          "imagen": "product-placeholder.svg",
+          "especificaciones": {
+            "material": "Acero templado",
+            "largo": "35 cm",
+            "uso": "Herreria"
+          }
+        },
+        {
+          "id": "tijera-bigornia",
+          "nombre": "Tijera Bigornia",
+          "descripcion": "Corte preciso para cuero y tejidos gruesos. Muy util en reparaciones rapidas de aperos.",
+          "imagen": "product-placeholder.svg",
+          "especificaciones": {
+            "material": "Acero carbono",
+            "largo": "24 cm",
+            "filo": "Doble"
+          }
+        },
+        {
+          "id": "monturero-pared",
+          "nombre": "Monturero de Pared",
+          "descripcion": "Soporte metalico para mantener monturas ventiladas y ordenadas. Ideal para cuarto de aperos o galpon.",
+          "imagen": "product-placeholder.svg",
+          "especificaciones": {
+            "material": "Hierro pintado",
+            "fijacion": "4 puntos",
+            "capacidad": "1 montura"
+          }
+        }
+      ]
+    }
+  ]
+}

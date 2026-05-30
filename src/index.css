@@ -1,0 +1,278 @@
+:root {
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  color: #1b241e;
+  background: radial-gradient(circle at top left, #f4efdf 0%, #e5dcc9 45%, #d3c8b4 100%);
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  width: min(1100px, 92vw);
+  margin: 1.25rem auto 2rem;
+  flex: 1;
+}
+
+.surface {
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(27, 36, 30, 0.12);
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(27, 36, 30, 0.12);
+}
+
+.section-title {
+  margin: 0 0 0.5rem;
+  font-size: 1.9rem;
+}
+
+.muted {
+  margin: 0;
+  color: #45534a;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.grid-3 {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.grid-2 {
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+}
+
+.btn {
+  display: inline-flex;
+  border: none;
+  border-radius: 999px;
+  padding: 0.6rem 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.18s ease, opacity 0.18s ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  opacity: 0.92;
+}
+
+.btn-primary {
+  background: #28543a;
+  color: #f5f1e8;
+}
+
+.btn-whatsapp {
+  background: #1f8f4d;
+  color: white;
+}
+
+.card {
+  border: 1px solid rgba(27, 36, 30, 0.14);
+  border-radius: 14px;
+  overflow: hidden;
+  background: #fffdf7;
+}
+
+.card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 0.9rem;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.hero {
+  padding: 1.1rem;
+}
+
+.hero-banner {
+  border-radius: 14px;
+  overflow: hidden;
+  min-height: 260px;
+  background: linear-gradient(120deg, rgba(31, 44, 37, 0.85), rgba(74, 95, 72, 0.7)),
+    url("/images/category-placeholder.svg") center / cover;
+  display: grid;
+  align-items: end;
+}
+
+.hero-copy {
+  color: #fbf8f2;
+  padding: 1.25rem;
+  width: min(650px, 100%);
+}
+
+.hero-copy h1 {
+  margin: 0;
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+}
+
+.hero-copy p {
+  margin: 0.65rem 0 1rem;
+}
+
+.topbar {
+  width: min(1100px, 92vw);
+  margin: 1rem auto 0;
+  padding: 0.75rem 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.brand {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  font-weight: 800;
+}
+
+.brand img {
+  width: 120px;
+  height: auto;
+}
+
+.menu-toggle {
+  border: 1px solid rgba(27, 36, 30, 0.25);
+  background: #f7f2e8;
+  color: #1f3027;
+  border-radius: 12px;
+  padding: 0.45rem 0.75rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.hamburger-panel {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  right: 1rem;
+  width: min(360px, calc(100vw - 2rem));
+  padding: 0.7rem;
+  border-radius: 14px;
+  background: #fffcf7;
+  border: 1px solid rgba(27, 36, 30, 0.16);
+  box-shadow: 0 12px 32px rgba(27, 36, 30, 0.18);
+  display: none;
+  z-index: 30;
+}
+
+.hamburger-panel.is-open {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.menu-section {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.menu-section h3 {
+  margin: 0;
+  font-size: 0.92rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #526458;
+}
+
+.menu-section a,
+.menu-section summary {
+  font-weight: 700;
+  color: #24372d;
+}
+
+.menu-list {
+  display: grid;
+  gap: 0.45rem;
+  padding-left: 0.2rem;
+}
+
+.menu-list a,
+.menu-section a {
+  padding: 0.25rem 0.15rem;
+}
+
+.footer {
+  width: min(1100px, 92vw);
+  margin: 0 auto 1.25rem;
+  padding: 1rem;
+}
+
+.footer p {
+  margin: 0.25rem 0;
+}
+
+.crumbs {
+  margin: 0 0 1rem;
+  color: #526458;
+  font-size: 0.92rem;
+}
+
+.detail {
+  padding: 1rem;
+}
+
+.detail-grid {
+  display: grid;
+  gap: 1.2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.detail-grid img {
+  width: 100%;
+  border-radius: 14px;
+  border: 1px solid rgba(27, 36, 30, 0.15);
+}
+
+.contact-form {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  border: 1px solid #b8c1b5;
+  border-radius: 10px;
+  padding: 0.65rem 0.75rem;
+  font: inherit;
+  background: #fffdf9;
+}
+
+@media (max-width: 720px) {
+  .topbar {
+    align-items: center;
+  }
+
+  .hamburger-panel {
+    right: 0.75rem;
+  }
+}
