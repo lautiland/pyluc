@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
+import { img } from "../paths";
 
 function CategoryCard({ categoria }) {
   return (
     <article className="card">
       <img
-        src={`/images/${categoria.imagen}`}
+        src={img(categoria.imagen)}
         alt={categoria.nombre}
         loading="lazy"
       />

@@ -2,6 +2,7 @@ import { useMemo } from "react";
 import { Link, useParams } from "react-router-dom";
 import Breadcrumb from "../components/Breadcrumb";
 import ProductGrid from "../components/ProductGrid";
+import { img } from "../paths";
 import productos from "../data/productos.json";
 import NotFound from "./NotFound";
 
@@ -37,7 +38,7 @@ function ProductoDetalle() {
       />
 
       <div className="detail-grid">
-        <img src={`/images/${producto.imagen}`} alt={producto.nombre} />
+        <img src={img(producto.imagen)} alt={producto.nombre} />
 
         <div>
           <h1 className="section-title">{producto.nombre}</h1>

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { img } from "../paths";
 
 function Navbar({ categorias }) {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -11,7 +12,7 @@ function Navbar({ categorias }) {
   return (
     <header className="surface topbar">
       <Link to="/" className="brand" onClick={closeMenu}>
-        <img src="/images/logo-pyluc.svg" alt="PY.LUC" />
+        <img src={img("logo-pyluc.svg")} alt="PY.LUC" />
       </Link>
 
       <button
@@ -22,12 +23,12 @@ function Navbar({ categorias }) {
         onClick={() => setMenuOpen((prev) => !prev)}
       >
         <img
-          src="/images/black-horse.png"
+          src={img("black-horse.png")}
           alt="Abrir menú"
           className={`menu-icon ${menuOpen ? "hidden" : ""}`}
         />
         <img
-          src="/images/white-horse.png"
+          src={img("white-horse.png")}
           alt="Cerrar menú"
           className={`menu-icon ${menuOpen ? "" : "hidden"}`}
         />
