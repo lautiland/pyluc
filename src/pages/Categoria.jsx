@@ -16,7 +16,7 @@ function Categoria() {
     <section className="surface" style={{ padding: "1rem" }}>
       <Breadcrumb
         items={[
-          { label: "Home", path: "/" },
+          { label: "Inicio", path: "/" },
           { label: categoria.nombre }
         ]}
       />

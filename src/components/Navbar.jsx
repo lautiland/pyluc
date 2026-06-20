@@ -11,7 +11,7 @@ function Navbar({ categorias }) {
   return (
     <header className="surface topbar">
       <Link to="/" className="brand" onClick={closeMenu}>
-        <img src="/images/logo.svg" alt="PYLUC" />
+        <img src="/images/logo-pyluc.svg" alt="PY.LUC" />
       </Link>
 
       <button
@@ -21,7 +21,16 @@ function Navbar({ categorias }) {
         aria-controls="main-menu"
         onClick={() => setMenuOpen((prev) => !prev)}
       >
-        <span aria-hidden="true">☰</span>
+        <img
+          src="/images/black-horse.png"
+          alt="Abrir menú"
+          className={`menu-icon ${menuOpen ? "hidden" : ""}`}
+        />
+        <img
+          src="/images/white-horse.png"
+          alt="Cerrar menú"
+          className={`menu-icon ${menuOpen ? "" : "hidden"}`}
+        />
       </button>
 
       <nav

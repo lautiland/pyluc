@@ -30,7 +30,7 @@ function ProductoDetalle() {
     <section className="surface detail">
       <Breadcrumb
         items={[
-          { label: "Home", path: "/" },
+          { label: "Inicio", path: "/" },
           { label: categoria.nombre, path: `/categoria/${categoria.id}` },
           { label: producto.nombre }
         ]}
@@ -70,7 +70,7 @@ function ProductoDetalle() {
       </div>
 
       {relacionados.length > 0 ? (
-        <div style={{ marginTop: "1.4rem" }}>
+        <div className="relacionados-section">
           <h2>Relacionados</h2>
           <ProductGrid productos={relacionados} categoriaId={categoria.id} />
         </div>

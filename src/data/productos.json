@@ -1,288 +1,236 @@
 {
   "categorias": [
     {
-      "id": "embocaduras",
-      "nombre": "Embocaduras",
-      "descripcion": "Frenos y bocados para doma, trabajo diario y caballos en formacion.",
+      "id": "monturas-y-recados",
+      "nombre": "Monturas y Recados",
+      "descripcion": "Sillas para cada disciplina: polo, equitacion, entrenamiento y trabajo. Cada modelo con sus distintas vistas y acabados.",
       "imagen": "category-placeholder.svg",
       "productos": [
         {
-          "id": "bridon-campo-inox",
-          "nombre": "Bridon de Campo Inox",
-          "descripcion": "Bridon de accion suave pensado para salidas largas y caballos sensibles. Su embocadura pareja mejora el contacto sin endurecer la boca.",
+          "id": "monturas-polo",
+          "nombre": "Monturas para Polo",
+          "descripcion": "Modelos y medidas para la practica del polo. Diseno agil, faldones compactos y estructura resistente al uso intensivo.",
           "imagen": "product-placeholder.svg",
           "especificaciones": {
-            "material": "Acero inoxidable",
-            "medida": "4.5 pulgadas",
-            "accion": "Suave"
+            "uso": "Polo",
+            "material": "Cuero y nylon",
+            "peso": "6.2 kg"
           }
         },
         {
-          "id": "freno-vaquero-corto",
-          "nombre": "Freno Vaquero Corto",
-          "descripcion": "Freno corto para jinete que busca respuesta rapida en giros y detenciones. Equilibra control y comodidad en trabajo de manga.",
+          "id": "monturas-equitacion",
+          "nombre": "Monturas de Equitacion",
+          "descripcion": "Monturas completas para equitacion clasica y deportiva. Asiento amplio, buena distribucion del peso y estabilidad.",
           "imagen": "product-placeholder.svg",
           "especificaciones": {
-            "material": "Acero pavonado",
-            "terminacion": "Pulido mate",
-            "uso": "Trabajo de campo"
-          }
-        },
-        {
-          "id": "pelham-doble-renda",
-          "nombre": "Pelham Doble Rienda",
-          "descripcion": "Embocadura versatil para caballos con buena base de boca. Permite ajustar la intensidad segun la rienda que utilices.",
-          "imagen": "product-placeholder.svg",
-          "especificaciones": {
-            "material": "Acero inoxidable",
-            "anillas": "Labradas",
-            "accion": "Media"
-          }
-        }
-      ]
-    },
-    {
-      "id": "accesorios-alpaca",
-      "nombre": "Accesorios de Alpaca",
-      "descripcion": "Piezas decorativas y funcionales para renovar aperos con terminacion artesanal.",
-      "imagen": "category-placeholder.svg",
-      "productos": [
-        {
-          "id": "argolla-alpaca-lisa",
-          "nombre": "Argolla de Alpaca Lisa",
-          "descripcion": "Argolla resistente para pecheras y sujeciones. Acabado limpio que combina con monturas de uso diario.",
-          "imagen": "product-placeholder.svg",
-          "especificaciones": {
-            "diametro": "7 cm",
-            "material": "Alpaca",
-            "terminacion": "Lustrada"
-          }
-        },
-        {
-          "id": "argolla-retorcida-inox",
-          "nombre": "Argolla Retorcida Inox",
-          "descripcion": "Detalle clasico para cabezadas y riendas de presentacion. El relieve retorcido suma firmeza y estilo criollo.",
-          "imagen": "product-placeholder.svg",
-          "especificaciones": {
-            "diametro": "6.5 cm",
-            "material": "Inox",
-            "grabado": "Retorcido"
-          }
-        },
-        {
-          "id": "argolla-bronce-labrada",
-          "nombre": "Argolla de Bronce Labrada",
-          "descripcion": "Pieza de bronce con labrado fino para monturas de paseo y exhibicion. Mantiene brillo y buena durabilidad.",
-          "imagen": "product-placeholder.svg",
-          "especificaciones": {
-            "diametro": "8 cm",
-            "material": "Bronce",
-            "uso": "Paseo y desfile"
-          }
-        }
-      ]
-    },
-    {
-      "id": "cuchillos",
-      "nombre": "Cuchillos",
-      "descripcion": "Modelos para faena y asado, con hojas durables y buen agarre.",
-      "imagen": "category-placeholder.svg",
-      "productos": [
-        {
-          "id": "cuchillo-gaucho-18",
-          "nombre": "Cuchillo Gaucho 18 cm",
-          "descripcion": "Hoja firme para uso mixto en campamento y cocina de campo. Mango de madera con buen apoyo en la mano.",
-          "imagen": "product-placeholder.svg",
-          "especificaciones": {
-            "largo_hoja": "18 cm",
-            "mango": "Madera",
-            "filo": "Liso"
-          }
-        },
-        {
-          "id": "cuchillo-faena-pro",
-          "nombre": "Cuchillo de Faena Pro",
-          "descripcion": "Pensado para tareas intensas de desposte y corte preciso. Mantiene filo estable con mantenimiento basico.",
-          "imagen": "product-placeholder.svg",
-          "especificaciones": {
-            "largo_hoja": "20 cm",
-            "mango": "Polimero antideslizante",
-            "acero": "420"
-          }
-        },
-        {
-          "id": "cuchillo-asador-curvo",
-          "nombre": "Cuchillo Asador Curvo",
-          "descripcion": "Diseño curvo para cortes finos de carne cocida y preparacion en parrilla. Liviano y comodo para jornadas largas.",
-          "imagen": "product-placeholder.svg",
-          "especificaciones": {
-            "largo_hoja": "16 cm",
-            "mango": "Asta sintetica",
-            "funda": "Cuero"
-          }
-        }
-      ]
-    },
-    {
-      "id": "riendas-sujetadores",
-      "nombre": "Riendas y Sujetadores",
-      "descripcion": "Elementos de sujecion y control para uso diario, doma y salida a campo.",
-      "imagen": "category-placeholder.svg",
-      "productos": [
-        {
-          "id": "rienda-cabo-negro",
-          "nombre": "Rienda Cabo Negro",
-          "descripcion": "Rienda de buena flexibilidad con costuras reforzadas. Ideal para entrenamiento y cabalgatas prolongadas.",
-          "imagen": "product-placeholder.svg",
-          "especificaciones": {
+            "uso": "Equitacion",
             "material": "Cuero",
-            "largo": "2.4 m",
-            "ancho": "16 mm"
-          }
-        },
-        {
-          "id": "hebilla-juego-bronce",
-          "nombre": "Juego de Hebillas Bronce",
-          "descripcion": "Set de hebillas y pasadores para recambio rapido de cabezadas. Ajuste firme con apariencia tradicional.",
-          "imagen": "product-placeholder.svg",
-          "especificaciones": {
-            "cantidad": "6 piezas",
-            "material": "Bronce",
-            "uso": "Repuesto"
-          }
-        },
-        {
-          "id": "destorcedor-argolla-doble",
-          "nombre": "Destorcedor Argolla Doble",
-          "descripcion": "Accesorio para evitar torsion en puntos de union. Facilita maniobra y reduce desgaste de las tientos.",
-          "imagen": "product-placeholder.svg",
-          "especificaciones": {
-            "material": "Inox",
-            "formato": "Doble argolla",
-            "medida": "80 mm"
-          }
-        }
-      ]
-    },
-    {
-      "id": "monturas",
-      "nombre": "Monturas",
-      "descripcion": "Monturas para paseo, trabajo y entrenamiento con enfasis en confort y duracion.",
-      "imagen": "category-placeholder.svg",
-      "productos": [
-        {
-          "id": "montura-tradicional",
-          "nombre": "Montura Tradicional",
-          "descripcion": "Modelo criollo de asiento amplio para uso diario. Distribuye mejor el peso y brinda estabilidad en terrenos irregulares.",
-          "imagen": "product-placeholder.svg",
-          "especificaciones": {
-            "material": "Cuero",
-            "color": "Habano",
             "talle": "Mediano"
           }
         },
         {
-          "id": "montura-paseo",
-          "nombre": "Montura de Paseo",
-          "descripcion": "Montura comoda para salidas largas con asiento acolchado y apoyo lumbar. Buena opcion para caballo de escuela.",
+          "id": "monturas-entrenamiento-trabajo",
+          "nombre": "Monturas de Entrenamiento y Trabajo",
+          "descripcion": "Monturas para entrenamiento diario y trabajo de campo. Incluye el modelo 'Freno de Oro' en cuero de bufalo y similares.",
           "imagen": "product-placeholder.svg",
           "especificaciones": {
-            "material": "Cuero reforzado",
-            "uso": "Paseo y trabajo",
-            "acolchado": "Alta densidad"
-          }
-        },
-        {
-          "id": "montura-polo-liviana",
-          "nombre": "Montura Polo Liviana",
-          "descripcion": "Diseño agil para practica deportiva, con faldones compactos y estructura resistente al uso intensivo.",
-          "imagen": "product-placeholder.svg",
-          "especificaciones": {
-            "material": "Cuero y nylon",
-            "peso": "6.2 kg",
-            "uso": "Polo y entrenamiento"
+            "uso": "Entrenamiento y trabajo",
+            "material": "Cuero de bufalo",
+            "color": "Habano"
           }
         }
       ]
     },
     {
-      "id": "equipamiento-caballo",
-      "nombre": "Equipamiento del Caballo",
-      "descripcion": "Accesorios para mejorar seguridad, control y comodidad del caballo.",
+      "id": "frenos-y-embocaduras",
+      "nombre": "Frenos y Embocaduras",
+      "descripcion": "Frenos criollos y embocaduras deportivas con variaciones de pata, copa y acabados.",
       "imagen": "category-placeholder.svg",
       "productos": [
         {
-          "id": "estribo-inox-seguro",
-          "nombre": "Estribo Inox Seguro",
-          "descripcion": "Par de estribos de acero inoxidable con apoyo antideslizante. Facilitan posicion estable del pie durante la monta.",
+          "id": "frenos-criollos",
+          "nombre": "Frenos Criollos",
+          "descripcion": "Galeria de frenos con copas de trebol, estrella, patas cortas y largas, detalles en bronce y retorcidos.",
           "imagen": "product-placeholder.svg",
           "especificaciones": {
-            "material": "Inox",
-            "ancho": "12 cm",
-            "peso": "750 g el par"
+            "estilo": "Criollo",
+            "acabado": "Bronce y retorcido",
+            "copa": "Trebol / Estrella"
           }
         },
         {
-          "id": "freno-consejero-bronce",
-          "nombre": "Freno Consejero Bronce",
-          "descripcion": "Freno de mayor presencia para caballo con experiencia. Incluye detalles de bronce que realzan el apero.",
+          "id": "embocaduras-deportivas",
+          "nombre": "Embocaduras Deportivas",
+          "descripcion": "Embocaduras con patas cortas, modelo Penaflor y disenos para caballo deportivo.",
           "imagen": "product-placeholder.svg",
           "especificaciones": {
-            "material": "Acero con bronce",
-            "accion": "Media a fuerte",
-            "paleta": "Corta"
-          }
-        },
-        {
-          "id": "embocadura-paso-peruano",
-          "nombre": "Embocadura Paso Peruano",
-          "descripcion": "Modelo desarrollado para trabajo fino en caballos de paso. Favorece ritmo parejo y contacto estable.",
-          "imagen": "product-placeholder.svg",
-          "especificaciones": {
-            "material": "Inox",
-            "bocado": "Ancho medio",
-            "uso": "Paso y exhibicion"
+            "estilo": "Deportivo",
+            "pata": "Corta",
+            "accion": "Suave a media"
           }
         }
       ]
     },
     {
-      "id": "herramientas",
-      "nombre": "Herramientas",
-      "descripcion": "Herramientas de apoyo para mantenimiento de establo, monturas y herrajes.",
+      "id": "estribos",
+      "nombre": "Estribos",
+      "descripcion": "Estribos de acero, bronce y pavonados para cada disciplina y estilo de recado.",
       "imagen": "category-placeholder.svg",
       "productos": [
         {
-          "id": "tenaza-desvasado",
-          "nombre": "Tenaza de Desvasado",
-          "descripcion": "Herramienta robusta para recorte y mantenimiento del casco. Empuñadura comoda para uso prolongado.",
+          "id": "estribos-acero-inoxidable",
+          "nombre": "Estribos de Acero Inoxidable y Niquelados",
+          "descripcion": "Estribos lisos, retorcidos y anatomicos con acabado inoxidable o niquelado.",
           "imagen": "product-placeholder.svg",
           "especificaciones": {
-            "material": "Acero templado",
-            "largo": "35 cm",
-            "uso": "Herreria"
+            "material": "Acero inoxidable / Niquel",
+            "tipo": "Liso / Retorcido / Anatomico",
+            "ancho": "12 cm"
           }
         },
         {
-          "id": "tijera-bigornia",
-          "nombre": "Tijera Bigornia",
-          "descripcion": "Corte preciso para cuero y tejidos gruesos. Muy util en reparaciones rapidas de aperos.",
+          "id": "estribos-bronce-pavonados",
+          "nombre": "Estribos de Bronce y Pavonados",
+          "descripcion": "Estribos con acabados clasicos y rusticos en bronce o pavonados.",
           "imagen": "product-placeholder.svg",
           "especificaciones": {
-            "material": "Acero carbono",
-            "largo": "24 cm",
-            "filo": "Doble"
+            "material": "Bronce / Pavonado",
+            "acabado": "Clasico / Rustico",
+            "ancho": "12 cm"
           }
         },
         {
-          "id": "monturero-pared",
-          "nombre": "Monturero de Pared",
-          "descripcion": "Soporte metalico para mantener monturas ventiladas y ordenadas. Ideal para cuarto de aperos o galpon.",
+          "id": "estribos-polo",
+          "nombre": "Estribos para Polo",
+          "descripcion": "Estribos con base de lija para mejor adherencia del pie en el juego de polo.",
           "imagen": "product-placeholder.svg",
           "especificaciones": {
-            "material": "Hierro pintado",
-            "fijacion": "4 puntos",
-            "capacidad": "1 montura"
+            "uso": "Polo",
+            "base": "Con lija antideslizante",
+            "material": "Acero"
+          }
+        }
+      ]
+    },
+    {
+      "id": "herramientas-campo-taller",
+      "nombre": "Herramientas de Campo y Taller",
+      "descripcion": "Herramientas para herrar (linea Mustad) y para talabarteria y sogueria.",
+      "imagen": "category-placeholder.svg",
+      "productos": [
+        {
+          "id": "herramientas-herrar-mustad",
+          "nombre": "Herramientas para Herrar - Linea Mustad",
+          "descripcion": "Gubias y tenazas Mustad: desvasar, remachar, extraer herradura, forjar y corta clavo.",
+          "imagen": "product-placeholder.svg",
+          "especificaciones": {
+            "linea": "Mustad",
+            "uso": "Herreria",
+            "material": "Acero templado"
+          }
+        },
+        {
+          "id": "herramientas-talabarteria",
+          "nombre": "Herramientas para Talabarteria y Sogueria",
+          "descripcion": "Rebajadora de lonja, corta lonja de mesa, igualadora de tiento y deviradora o rebajadora 3 en 1.",
+          "imagen": "product-placeholder.svg",
+          "especificaciones": {
+            "uso": "Talabarteria / Sogueria",
+            "material": "Acero",
+            "tipo": "Corte y rebajado"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cuchilleria",
+      "nombre": "Cuchilleria",
+      "descripcion": "Cuchillos de prestigio agrupados por marca: Arbolito Boker, Tres Claveles y Eskilstuna.",
+      "imagen": "category-placeholder.svg",
+      "productos": [
+        {
+          "id": "cuchillos-arbolito-boker",
+          "nombre": "Cuchillos Arbolito Boker",
+          "descripcion": "Cuchillos de la linea Arbolito por Boker. Tradicion alemana con diseno sudamericano.",
+          "imagen": "product-placeholder.svg",
+          "especificaciones": {
+            "marca": "Arbolito Boker",
+            "origen": "Alemania",
+            "acero": "Acero inoxidable"
+          }
+        },
+        {
+          "id": "cuchillos-tres-claveles",
+          "nombre": "Cuchillos Tres Claveles",
+          "descripcion": "Cuchillos artesanales Tres Claveles. Filo durable y mango de materiales nobles.",
+          "imagen": "product-placeholder.svg",
+          "especificaciones": {
+            "marca": "Tres Claveles",
+            "origen": "Argentina",
+            "acero": "Acero carbono"
+          }
+        },
+        {
+          "id": "cuchillos-eskilstuna",
+          "nombre": "Cuchillos Eskilstuna",
+          "descripcion": "Cuchillos de la clasica fabrica sueca Eskilstuna. Reconocidos por su calidad y filo duradero.",
+          "imagen": "product-placeholder.svg",
+          "especificaciones": {
+            "marca": "Eskilstuna",
+            "origen": "Suecia",
+            "acero": "Acero al carbono"
+          }
+        }
+      ]
+    },
+    {
+      "id": "insumos-y-herrajes",
+      "nombre": "Insumos y Herrajes",
+      "descripcion": "Argollas, hebillas, suela y cuero para el artesano o quien repara su propio equipo.",
+      "imagen": "category-placeholder.svg",
+      "productos": [
+        {
+          "id": "argollas-bronce",
+          "nombre": "Argollas de Bronce",
+          "descripcion": "Argollas de bronce lisas y labradas chatas. Ideales para pecheras y sujeciones.",
+          "imagen": "product-placeholder.svg",
+          "especificaciones": {
+            "material": "Bronce",
+            "tipo": "Lisa / Labrada chata",
+            "diametro": "7 a 8 cm"
+          }
+        },
+        {
+          "id": "argollas-acero-inoxidable",
+          "nombre": "Argollas de Acero Inoxidable y Metales",
+          "descripcion": "Argollas lisas, retorcidas y tipo DM en acero inoxidable y otros metales.",
+          "imagen": "product-placeholder.svg",
+          "especificaciones": {
+            "material": "Acero inoxidable / Metal",
+            "tipo": "Lisa / Retorcida / DM",
+            "diametro": "6.5 a 7 cm"
+          }
+        },
+        {
+          "id": "hebillas-varias",
+          "nombre": "Hebillas Varias",
+          "descripcion": "Hebillas de distintos modelos y medidas para cabezadas, cinchas y aperos en general.",
+          "imagen": "product-placeholder.svg",
+          "especificaciones": {
+            "material": "Bronce / Acero / Niquel",
+            "uso": "Cabezadas / Cinchas / Aperos",
+            "medida": "Multiple"
+          }
+        },
+        {
+          "id": "suela-y-cuero",
+          "nombre": "Suela y Cuero",
+          "descripcion": "Suela engrasada y recortes de cuero para reparacion y fabricacion artesanal.",
+          "imagen": "product-placeholder.svg",
+          "especificaciones": {
+            "tipo": "Suela engrasada / Recortes",
+            "uso": "Talabarteria",
+            "presentacion": "Por pieza o metro"
           }
         }
       ]
