@@ -15,6 +15,7 @@ function ProductCard({ producto, categoriaId }) {
         <Link
           className="btn btn-primary"
           to={`/producto/${categoriaId}/${producto.id}`}
+          onClick={() => window.scrollTo(0, 0)}
         >
           Ver detalle
         </Link>

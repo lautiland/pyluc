@@ -63,6 +63,24 @@ a {
     grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
 }
 
+.grid-4 {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+}
+
+.proveedor-card {
+    border: 1px solid #8d6e63;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #fffcf8;
+}
+
+.proveedor-card img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+}
+
 .btn {
     display: inline-flex;
     border: none;
@@ -125,7 +143,8 @@ a {
 }
 
 .hero {
-    padding: 1.1rem;
+    border-radius: 4px;
+    overflow: hidden;
 }
 
 .hero-banner {
@@ -158,6 +177,16 @@ a {
     margin: 0.65rem 0 1rem;
 }
 
+.hero-actions {
+    display: flex;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+}
+
+.hero-actions .btn {
+    border: 2px solid #fff;
+}
+
 .topbar {
     width: min(1100px, 92vw);
     margin: 1rem auto 0;
@@ -186,24 +215,36 @@ a {
     background: #f7f2e8;
     color: #3e2723;
     border-radius: 4px;
-    padding: 0.45rem 0.75rem;
-    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 0.45rem;
-    font: inherit;
-    font-weight: 700;
+    gap: 5px;
     cursor: pointer;
+    padding: 0;
 }
 
-.menu-icon {
-    width: 28px;
-    height: auto;
+.menu-toggle span {
     display: block;
-    transition: opacity 0.2s;
+    width: 22px;
+    height: 2px;
+    background: #4a3728;
+    border-radius: 2px;
+    transition: transform 0.25s ease, opacity 0.25s ease;
 }
 
-.menu-icon.hidden {
-    display: none;
+.menu-toggle.is-open span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+}
+
+.menu-toggle.is-open span:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-toggle.is-open span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
 }
 
 .hamburger-panel {
@@ -236,6 +277,7 @@ a {
     text-transform: uppercase;
     letter-spacing: 0.06em;
     color: #8d6e63;
+    font-weight: 700;
 }
 
 .menu-section a,
@@ -254,6 +296,8 @@ a {
 .menu-section a {
     padding: 0.25rem 0.15rem;
 }
+
+
 
 .footer {
     width: min(1100px, 92vw);

@@ -17,21 +17,14 @@ function Navbar({ categorias }) {
 
       <button
         type="button"
-        className="menu-toggle"
+        className={`menu-toggle ${menuOpen ? "is-open" : ""}`}
         aria-expanded={menuOpen}
         aria-controls="main-menu"
         onClick={() => setMenuOpen((prev) => !prev)}
       >
-        <img
-          src={img("black-horse.png")}
-          alt="Abrir menú"
-          className={`menu-icon ${menuOpen ? "hidden" : ""}`}
-        />
-        <img
-          src={img("white-horse.png")}
-          alt="Cerrar menú"
-          className={`menu-icon ${menuOpen ? "" : "hidden"}`}
-        />
+        <span></span>
+        <span></span>
+        <span></span>
       </button>
 
       <nav

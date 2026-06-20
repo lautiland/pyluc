@@ -63,7 +63,7 @@ function ProductoDetalle() {
           </a>
 
           <div style={{ marginTop: "0.8rem" }}>
-            <Link to={`/categoria/${categoria.id}`} className="btn btn-primary">
+            <Link to={`/categoria/${categoria.id}`} className="btn btn-primary" onClick={() => window.scrollTo(0, 0)}>
               Volver a categoria
             </Link>
           </div>

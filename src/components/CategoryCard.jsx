@@ -13,7 +13,7 @@ function CategoryCard({ categoria }) {
         <h3>{categoria.nombre}</h3>
         <p className="muted">{categoria.descripcion}</p>
         <small>{categoria.productos.length} productos</small>
-        <Link className="btn btn-primary" to={`/categoria/${categoria.id}`}>
+        <Link className="btn btn-primary" to={`/categoria/${categoria.id}`} onClick={() => window.scrollTo(0, 0)}>
           Ver categoria
         </Link>
       </div>
